@@ -1,0 +1,130 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+
+
+
+/* banner */
+		#banner { width: 100%; height: 350px; background: #FFF; padding-top: 0px; clear:both;}
+		#stage {
+			z-index: 100;
+			position:relative;
+		}
+		.stage {
+			position: absolute;
+			width: 960px;
+			min-width: 900px;
+			height: 350px;
+			overflow: hidden;
+		}
+		#clouds {
+			background: url(posicionamiento.png) no-repeat scroll 0 0 transparent;
+			height: 130px;
+    	 	left: -50px;
+    	 	position: absolute;
+    	 	width: 224px;
+    	 	z-index: 3;
+			cursor:pointer;
+		}
+		#clouds1 {
+			background: url(presupuestomedida.png) no-repeat scroll 0 0 transparent;
+			height: 130px;
+    	 	left: 0px;
+    	 	position: absolute;
+    	 	width: 224px;
+    	 	z-index: 3;
+			cursor:pointer;
+		}
+		#clouds2 {
+			background: url(tiendaonline.png) no-repeat scroll 0 0 transparent;
+			height: 130px;
+    	 	left: 0px;
+    	 	position: absolute;
+    	 	width: 224px;
+    	 	z-index: 3;
+			cursor:pointer;
+		}
+		#clouds3 {
+			background: url(aplifacebook.png) no-repeat scroll 0 0 transparent;
+			height: 130px;
+    	 	left: 0px;
+    	 	position: absolute;
+    	 	width: 224px;
+    	 	z-index: 3;
+			cursor:pointer;
+		}
+		#hill2 {
+			background: transparent url(Cadiz_fondo3.png) 0 48px repeat-x;
+		}
+		#hill1 {
+			background: transparent url(avionetaa.png) 0 24px repeat-x;
+		}
+		#bird {
+			background: transparent url(avioneta2.png) 0 0 no-repeat;
+			position: absolute;
+			top: 150px;
+			left: 25px;
+			width: 553px;
+			height: 103px;
+			z-index: 500;
+			cursor: pointer;
+		}
+		#bird2 {
+    	 	background: url(pige2.png) no-repeat scroll 0 0 transparent;
+    	 	height: 130px;
+    	 	left: 43px;
+    	 	position: absolute;
+    	 	width: 135px;
+    	 	z-index: 3;
+		}
+		#mari {
+    	 	background: url(mari.png) no-repeat scroll 0 0 transparent;
+    	 	height: 130px;
+    	 	left: 0px;
+    	 	position: absolute;
+    	 	width: 224px;
+    	 	z-index: 3;
+		}
+		#facebookanima {
+    	 	background: url(facebookanima.png) no-repeat scroll 0 0 transparent;
+    	 	height: 30px;
+    	 	left: 0px;
+    	 	position: absolute;
+    	 	width: 20px;
+    	 	z-index: 3;
+			cursor:pointer;
+		}
+		#twitteranima {
+    	 	background: url(twitteranima.png) no-repeat scroll 0 0 transparent;
+    	 	height: 30px;
+    	 	left: 0px;
+    	 	position: absolute;
+    	 	width: 20px;
+    	 	z-index: 3;
+			cursor:pointer;
+		}
+		#webanima {
+    	 	background: url(webanima.png) no-repeat scroll 0 0 transparent;
+    	 	height: 30px;
+    	 	left: 0px;
+    	 	position: absolute;
+    	 	width: 80px;
+    	 	z-index: 3;
+			cursor:pointer;
+		}
+		#piruli {
+    	 	background: url(piruli1.png) no-repeat scroll 0 0 transparent;
+    	 	height: 190px;
+    	 	left: 43px;
+    	 	position: absolute;
+    	 	width: 197px;
+    	 	z-index: 3;
+			cursor:pointer;
+		}
+		#sun {
+		 	position: absolute;
+		 	top: 0px;
+		 	left: 200px;
+		 	width: 150px;
+			height: 150px;
+			background: transparent url(sun.png);
+		}
+

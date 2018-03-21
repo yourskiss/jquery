@@ -1,0 +1,50 @@
+
+
+img{max-width:100%;height:auto}
+body{background:url('rak-back.png') repeat;color:#fff;font-family:'PT Sans', sans-serif;font-size:24px;line-height:24px;text-shadow:0 1px 0 #a39c9c;}
+a{color:#24aadd;text-decoration:underline;text-shadow:none;}
+a:hover{text-decoration:none}
+
+.clear{clear:both;}
+.garland{text-align:center;position:relative;z-index:4}
+.logo{margin:-70px auto 80px auto;text-align:center;position:relative;z-index:3}
+.cloud{width:940px;position:relative;overflow-x:none;}
+.cloud img{width:118px}
+.sun{position:relative;float:right;margin-top:-520px;margin-right:265px;z-index:2}
+.content{margin:0 auto;text-align:center;margin-bottom:80px}
+.checkbox{margin-bottom:70px}
+.checkbox .title{text-transform:uppercase;font-size:48px;line-height:100%;font-weight:700;display:block;margin-bottom:10px;text-shadow:0 3px 0 #a39c9c;}
+.barrow{width:100%;text-align:center}
+.arrow:hover{cursor:pointer;}
+.arrowcontainer{margin-top:60px}
+
+/* Animation */
+#stage {top: 0px;left: 0px;z-index:1;}
+.stage {position: absolute;top: 0;left: 0;width: 100%;height: 359px;overflow: hidden;}
+#cloud{background: transparent url('rak-clouds-l.png') 305px 10px repeat-x;}
+#loader{display:none;text-align:center}
+
+/* Suprise */
+#surprise{display:none;text-align:center}
+.sp1,.sp2,.sp3,.sp4,.sp5,.sp6,.sp7,.sp8{display:none;}
+#surprise h1{text-transform:uppercase;font-size:48px;line-height:100%;font-weight:700;display:block;margin-bottom:20px;text-shadow:0 3px 0 #a39c9c;}
+#surprise p{margin-bottom:40px}
+#surprise .coupon{text-transform:uppercase;font-size:60px;line-height:100%;font-weight:700;display:block;text-shadow:0 3px 0 #a39c9c;}
+
+
+/* Mobile */
+@media (max-width:1199px){
+	.sun{margin-right:140px}
+}
+
+@media (max-width:991px){
+	body{background-size:100px}
+	.sun{margin-right:80px}
+
+}
+
+@media (max-width:470px) {
+	body{background-size:100px}
+	.sun{margin-top:-420px;margin-right:0px;}
+	
+}

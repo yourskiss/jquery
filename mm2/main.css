@@ -1,0 +1,208 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #FFF;
+	width: auto;
+	height: 100%;
+	font-family: 'Trebuchet MS', Arial, Sans-Serif;
+	font-size: 15px;
+	color: #474747;
+	line-height: 1.6em;
+        min-width: 940px;
+}
+a, a:visited {
+	color: #3a9bc7;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+h1, h2, h3, h4, h5 {
+	text-transform: uppercase;
+	font-family: Bliss, 'Myriad Pro', 'Trebuchet MS', Arial, Sans-Serif;
+	color: #a1c117;
+}
+h1 a, h2 a, h3 a, h4 a,
+h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited {
+	text-decoration: none;
+	color: #a1c117;
+}
+h1 {
+	font-size: 1.93em;
+	line-height: 1.2em;
+	margin: 8px 0 38px 0;
+}
+h2 {
+	font-size: 1.47em;
+	line-height: 1.2em;
+	margin: 8px 0 15px 0;
+}
+h3 {
+	font-size: 1.20em;
+	line-height: 1.2em;
+	margin: 8px 0 15px 0;
+}
+h4 {
+	font-size: 1.07em;
+	line-height: 1.1em;
+	margin: 8px 0 15px 0;
+}
+h5 {
+	font-size: 1.07em;
+	line-height: 1.1em;
+	margin: 8px 0 15px 0;
+}
+
+a img {
+	border: 0;
+}
+ul {
+	padding-left: 40px;
+}
+pre {
+	background: #efefef;
+	border: 1px solid silver;
+	margin: 10px 0;
+	padding: 10px;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+
+#container {
+	width: 100%;
+	/*min-width: 900px;*/
+	padding-top: 359px;
+	position: relative;
+}
+#logo {
+	background: url(/images/spritely_logo.png) 0 0 no-repeat;
+	width: 378px;
+	height: 121px;
+	position: absolute;
+	top: 7px;
+	left: 30px;
+	z-index: 1900;
+		text-indent: -9999px;
+}
+	#logo a {
+		/*
+			display: block;
+			width: 378px;
+			height: 121px;
+		*/
+	}
+.stage {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	/*min-width: 900px;*/
+	height: 359px;
+	overflow: hidden;
+}
+#stage {
+	top: 0px;
+	left: 0px;
+	z-index: 100;
+}
+#bg {
+	background: #aedfe5 url(sky1.png) 0 0 repeat-x;
+}
+#clouds {
+	background: transparent url(cloud.png) 305px 102px repeat-x;
+}
+#hill2 {
+	background: transparent url(hill2.png) 0 258px repeat-x;
+}
+#hill1 {
+	background: transparent url(hill-with-windmill.png) 0 104px repeat-x;
+}
+#sprite_up {
+	position: absolute;
+	top: 40px;
+	left: 540px;
+	width: 381px;
+	height: 54px;
+	background: transparent url(sprite-up-the-web-strap.png) top left no-repeat;
+}
+#dragMe {
+	position: absolute;
+	top: 290px;
+	left: 57%;
+	z-index: 150;
+	background: url(dragme_text.png) 0 0 no-repeat;
+	margin-left: -50px;
+	width: 100px;
+	height: 65px;
+}
+#slider {
+        display: none;/* show dynamically for non smart-phones or ipad */
+	position: relative;
+	z-index: 200;
+	height: 14px;
+	width: 100%;
+	background: url(slider_bg.png) 0 0;
+}
+#slider.ui-corner-all,
+#slider .ui-corner-all {
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+}
+#slider.ui-widget-content {
+	background: url(slider_bg.png) 0 0;
+	border: 0;
+}
+#slider .ui-state-default, #slider.ui-widget-content .ui-state-default {
+	background: url(slider_handle.png) 0 0 no-repeat;
+	width: 23px;
+	height: 30px;
+	border: 0;
+}
+#slider.ui-slider-horizontal .ui-slider-handle  {
+	position: absolute;
+	top: -9px;
+	cursor: pointer;
+	outline: none;
+	height: 23px;
+}
+#sidebar {
+	position: absolute;
+	top: 448px;
+	width: 200px;
+	right: 30px;
+}
+
+.clickable {
+	color: #999;
+	font-style: italic;
+	padding: 0 1px;
+	border-bottom: 1px dotted #999;
+}
+#bird {
+	background: transparent url(bird-forward-back.png) 0 0 no-repeat;
+	position: absolute;
+	top: 150px;
+	left: 65px;
+	width: 180px;
+	height: 123px;
+	z-index: 2000;
+	cursor: pointer;
+}
+#bird2 {
+	background: transparent url(bird-forward-back-sm.png) 0 0 no-repeat;
+	position: absolute;
+	top: 70px;
+	left: 155px;
+	width: 140px;
+	height: 96px;
+	z-index: 1800;
+	cursor: pointer;
+}
+
+.trsp {
+	float: left;
+	background: transparent url(/trsp.jpg);
+}
+
