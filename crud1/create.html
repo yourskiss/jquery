@@ -91,7 +91,7 @@ function formvalidation()
         }).then(res => {
             return res.json();
         }).then(task => {
-            window.location.href = "/"
+            window.location.href = "index.html"
         }).catch(error => {
             $("#formloader").hide();
             $("#errormsg").html(error);
